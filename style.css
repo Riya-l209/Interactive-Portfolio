@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #f9f9f9, #e3f2fd);
+  color: #333;
+}
+
+/* Each section with different background shades */
+#about { background: #fff3e0; }       /* light orange */
+#skills { background: #e8f5e9; }      /* light green */
+#projects { background: #e3f2fd; }    /* light blue */
+#internships { background: #f3e5f5; } /* light purple */
+#certifications { background: #fffde7;}/* light yellow */
+#contact { background: #ede7f6; }     /* soft violet */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a clean font and background */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background: #333;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff9800; /* Orange highlight on hover */
+}
+
+/* Section styles */
+section {
+  padding: 60px 20px;
+  min-height: 100vh; /* full screen height */
+  border-bottom: 1px solid #ddd;
+}
+
+section h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #222;
+}
+
+/* Card layout for projects & internships */
+.project, .internship {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect */
+.project:hover, .internship:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Headings inside cards */
+.project h2, .internship h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* GitHub links */
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff9800;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Active section link */
+nav ul li a.active {
+  color: #ff9800;
+  border-bottom: 2px solid #ff9800;
+  padding-bottom: 2px;
+}
+
