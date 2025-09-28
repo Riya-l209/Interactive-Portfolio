@@ -2,7 +2,7 @@
 
 This is my **personal portfolio website**, built to showcase my skills, projects, internships, certifications, and contact details in an interactive and visually engaging way.  
 
-🔗 **Live Website**: [https://YOUR-USERNAME.github.io/Interactive-Portfolio/](https://riya-l209.github.io/Interactive-Portfolio/) 
+🔗 **Live Website**: [https://riya-l209.github.io/Interactive-Portfolio/](https://riya-l209.github.io/Interactive-Portfolio/) 
 
 ---
 
