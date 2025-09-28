@@ -2,7 +2,7 @@
 
 This is my **personal portfolio website**, built to showcase my skills, projects, internships, certifications, and contact details in an interactive and visually engaging way.  
 
-🔗 **Live Website**: [https://YOUR-USERNAME.github.io/Interactive-Portfolio/](https://YOUR-USERNAME.github.io/Interactive-Portfolio/)  
+🔗 **Live Website**: [https://YOUR-USERNAME.github.io/Interactive-Portfolio/](https://riya-l209.github.io/Interactive-Portfolio/) 
 
 ---
 
@@ -45,7 +45,7 @@ To deploy:
 ## 👩‍💻 Author
 **Riya Bhardwaj**  
 - 📧 [bhardwajriya2709@gmail.com](mailto:bhardwajriya2709@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/riya-bhardwaj16)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/riya-bhardwaj18)  
 - 🔗 [GitHub](https://github.com/Riya-l209)  
 
 ---
