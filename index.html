@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Digital Portfolio</title>
+  <title>Riya Bhardwaj | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigation -->
   <nav>
+    <div class="logo">Riya<span>Portfolio</span></div>
     <ul>
-      <li><a href="#about">About Me</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#internships">Internships</a></li>
@@ -19,92 +20,200 @@
     </ul>
   </nav>
 
-  <!-- Sections -->
-  <section id="about">
-  <h1>About Me</h1>
-  <p>
-    Hi, I’m <strong>Riya Bhardwaj</strong>, a B.Tech CSE student at Birla Institute of Technology, Mesra (8.98/10.0 GPA). 
-    I blend <strong>code, creativity, and data</strong> to build intelligent solutions — from 
-    <em>AI-powered apps</em> to <em>real-time analytics</em>. 
-    I enjoy turning complex problems into impactful results.
-  </p>
-  <img src="me.jpg" alt="Riya Bhardwaj" width="200" style="border-radius: 50%; margin-top:20px;">
-</section>
+  <!-- About -->
+  <section id="about" class="dark-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="me.jpg" alt="Riya Bhardwaj">
+      </div>
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>
+          Hi, I’m <strong>Riya Bhardwaj</strong>, a B.Tech CSE student at Birla Institute of Technology, Mesra.  
+          I blend <strong>code, creativity, and data</strong> to craft intelligent solutions — from  
+          <em>AI-powered applications</em> to <em>real-time analytics dashboards</em>.  
+        </p>
+        <p>
+          My journey began with <strong>programming and web development</strong>, and has grown into a deep passion 
+          for <strong>artificial intelligence, computer vision, and data science</strong>.  
+          I’ve interned at <strong>Tata Motors</strong> and <strong>Tata Steel</strong>, where I developed solutions 
+          like road extraction models from satellite images and data visualization dashboards in Tableau.  
+        </p>
+        <p>
+          I believe in building <strong>scalable, impactful technology</strong> that not only solves problems 
+          but also makes a difference. When I’m not coding, you’ll probably find me exploring new tech tools, 
+          singing classical music, or sketching ideas for my next project.
+        </p>
+        <div class="about-buttons">
+          <a href="#contact" class="btn-primary">📩 Contact Me</a>
+          <a href="resume.pdf" class="btn-secondary" target="_blank">📄 Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Skills -->
+  <section id="skills" class="dark-section">
+    <h1>My Skills</h1>
+    <div class="card-container">
+      <div class="card skill-card">
+        <img src="images/python.png" alt="Python">
+        <h2>Python</h2>
+        <p>Data Science, AI, Automation</p>
+      </div>
+      <div class="card skill-card">
+        <img src="images/java.png" alt="Java">
+        <h2>Java</h2>
+        <p>OOP, DSA, Backend</p>
+      </div>
+      <div class="card skill-card">
+        <img src="images/sql.png" alt="SQL">
+        <h2>SQL</h2>
+        <p>Database Design, Queries</p>
+      </div>
+      <div class="card skill-card">
+        <img src="images/js.png" alt="JavaScript">
+        <h2>JavaScript</h2>
+        <p>Web Development</p>
+      </div>
+    </div>
+  </section>
 
- <section id="skills">
-  <h1>Skills</h1>
-  <ul>
-    <li><strong>Programming:</strong> Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, OpenCV), Java, C, SQL, HTML, CSS, JavaScript</li>
-    <li><strong>AI & ML:</strong> Deep Learning (U-Net, CNNs), Computer Vision, Generative AI, Prompt Engineering</li>
-    <li><strong>Tools:</strong> Tableau, Power BI, Excel, MySQL, Git & GitHub, Jupyter Notebook, Google Colab, VS Code</li>
-  </ul>
-</section>
-
- <section id="projects">
+  <section id="projects" class="dark-section">
   <h1>Projects</h1>
-  
-  <div class="project">
-    <h2>AI-powered Image Captioning & Segmentation</h2>
-    <p>
-      Built an app using ViT-GPT2 & Mask R-CNN for captioning and segmentation; 
-      deployed on Hugging Face Spaces.
-    </p>
-    <a href="https://github.com/Riya-l209/ImageCaptioning_Segmentation.git" target="_blank">🔗 View on GitHub</a>
-  </div>
+  <div class="project-gallery">
+    <div class="project">
+      <h2>AI-powered Image Captioning</h2>
+      <p>App using ViT-GPT2 & Mask R-CNN for real-time captioning & segmentation.</p>
+      <div class="screenshot-row">
+        <img src="images/P1-1.png" alt="AI Project Screenshot 1">
+        <img src="images/P1-2.png" alt="AI Project Screenshot 2"> 
+      </div>
+      <a href="https://github.com/Riya-l209/ImageCaptioning_Segmentation.git" target="_blank" class="btn-primary">🔗 GitHub</a>
+    </div>
 
-  <div class="project">
-    <h2>Time Series Stock Price Forecasting</h2>
-    <p>
-      Forecasted AAPL stock using ARIMA, Prophet, and LSTM; 
-      built a Streamlit dashboard for real-time insights.
-    </p>
-    <a href="https://github.com/Riya-l209/time-series-stock-forecast.git" target="_blank">🔗 View on GitHub</a>
+    <div class="project">
+      <h2>Stock Price Forecasting</h2>
+      <p>Predictions with ARIMA, Prophet, and LSTM in a Streamlit dashboard.</p>
+      <div class="screenshot-row">
+        <img src="images/p2-1.png" alt="Stock Project Screenshot 1">
+        <img src="images/p2-2.png" alt="Stock Project Screenshot 2">
+      </div>
+      <a href="https://github.com/Riya-l209/time-series-stock-forecast.git" target="_blank" class="btn-primary">🔗 GitHub</a>
+    </div>
   </div>
 </section>
 
-<section id="internships">
+
+<section id="internships" class="dark-section">
   <h1>Internships</h1>
-  
+
+  <!-- Tata Motors -->
   <div class="internship">
-    <h2>Data Science Intern — Tata Motors (May–July 2025)</h2>
-    <ul>
-      <li>Built U-Net model for road extraction from satellite images (95% IoU).</li>
-      <li>Preprocessed and augmented dataset of 1,108+ images.</li>
-      <li>Deployed model on Streamlit for real-time predictions.</li>
-    </ul>
+    <h2>Data Science Intern – Tata Motors</h2>
+    <p><strong>Duration:</strong> May 2024 – July 2024</p>
+    <p>
+      Worked on the development of a deep learning model for <strong>automatic road extraction from 
+      satellite images</strong>. Implemented a <strong>U-Net architecture</strong> achieving 95% Intersection over Union (IoU) score.  
+      The project was deployed on a <strong>Streamlit web app</strong> to provide interactive road extraction 
+      visualization and insights for use in navigation and infrastructure planning.
+    </p>
+    <p>
+      This experience enhanced my knowledge of <strong>computer vision, model deployment, and practical 
+      application of deep learning techniques</strong> in real-world geospatial problems.
+    </p>
+    <div class="screenshot-row">
+      <img src="images/I1-4.jpg" alt="Tata Motors Induction">
+      <img src="images/I1-2.jpg" alt="Tata Motors ID Card">
+      <img src="images/I1-3.jpg" alt="Tata Motors Campus">
+      <img src="images/I1-1.jpg" alt="Tata Motors Internship Certificate">
+    </div>
   </div>
 
+  <!-- Tata Steel -->
   <div class="internship">
-    <h2>Data Analyst Intern — Tata Steel (May 2025)</h2>
-    <ul>
-      <li>Cleaned and processed Failure Analysis Data (FAD) using Excel & Python.</li>
-      <li>Built interactive Tableau dashboards for trend analysis.</li>
-    </ul>
+    <h2>Data Analyst Intern – Tata Steel</h2>
+    <p><strong>Duration:</strong> Jan 2024 – Mar 2024</p>
+    <p>
+      Developed an <strong>interactive Tableau dashboard</strong> for analyzing <strong>Failure Analysis Data (FAD)</strong>.  
+      The dashboard allowed engineers to identify patterns in equipment failure, analyze downtime reasons, 
+      and monitor overall performance metrics. This helped in improving <strong>data-driven decision-making</strong> 
+      and preventive maintenance at Tata Steel.
+    </p>
+    <p>
+      During this internship, I gained hands-on exposure to <strong>data visualization, statistical analysis, 
+      and communication of technical insights</strong> for industrial use cases.
+    </p>
+    <div class="screenshot-row">
+      <img src="images/I2-1.jpg" alt="Tata Steel Internship Certificate">
+      <img src="images/I2-2.png" alt="Tata Steel project submission">
+    </div>
+  </div>
+
+  <!-- Zidio Development -->
+  <div class="internship">
+    <h2>Data Science & Analytics Intern – Zidio Development</h2>
+    <p><strong>Duration:</strong> May 2025 – July 2025</p>
+    <p>
+      Successfully completed internship in the field of <strong>Data Science & Analytics</strong>. Worked on 
+      <strong>end-to-end data analysis projects</strong>, including data cleaning, preprocessing, visualization, 
+      and reporting. Contributed to the design of scalable <strong>data pipelines</strong> and implemented 
+      <strong>predictive models</strong> for deriving actionable business insights.
+    </p>
+    <p>
+      This internship strengthened my expertise in <strong>Python (Pandas, NumPy, Scikit-learn), SQL, 
+      and visualization tools</strong>. It also gave me a strong foundation in <strong>professional collaboration, 
+      reporting, and meeting project deadlines</strong>.
+    </p>
+    <div class="screenshot-row">
+      <img src="images/zidio-cert.png" alt="Zidio Development Internship Certificate">
+      <img src="images/I3-2.png" alt="Zidio Development Internship Training Certificate">
+    </div>
   </div>
 </section>
 
-  
-  <section id="certifications">
+
+  <section id="certifications" class="dark-section">
   <h1>Certifications</h1>
-  <ul>
-    <li><strong>Career Essentials in Generative AI</strong> — Microsoft & LinkedIn Learning (2024)</li>
-    <li><strong>Introduction to Prompt Engineering for Generative AI</strong> — Microsoft & LinkedIn Learning (2024)</li>
-    <li><strong>Build Your Generative AI Productivity Skills</strong> — Microsoft & LinkedIn Learning (2024)</li>
-    <li><strong>AI Tools and ChatGPT Workshop</strong> — be10x (2024)</li>
-  </ul>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/cert2.png" alt="Career Essentials in Generative AI">
+      <p>PowerBI Workshop — OfficeMaster (2025)</p>
+    </div>
+    <div class="gallery-item">
+      <img src="images/cert1.png" alt="Prompt Engineering for Generative AI">
+      <p>Prompt Engineering for Generative AI — Microsoft & LinkedIn (2024)</p>
+    </div>
+    <div class="gallery-item">
+      <img src="images/cert3.png" alt="Generative AI Productivity Skills">
+      <p>Build Generative AI Productivity Skills — Microsoft & LinkedIn (2024)</p>
+    </div>
+    <div class="gallery-item">
+      <img src="images/cert4.png" alt="AI Tools & ChatGPT Workshop">
+      <p>AI Tools & ChatGPT Workshop — be10x (2024)</p>
+    </div>
+  </div>
 </section>
 
-  <section id="contact">
-  <h1>Contact</h1>
-  <p>📍 Jamshedpur, Jharkhand</p>
-  <p>📧 <a href="mailto:bhardwajriya2709@gmail.com">bhardwajriya2709@gmail.com</a></p>
-  <p>📱 7250224891</p>
-  <p>
-    🔗 <a href="https://www.linkedin.com/in/riya-bhardwaj16" target="_blank">LinkedIn</a> | 
-    🔗 <a href="https://github.com/Riya-l209" target="_blank">GitHub</a>
-  </p>
-</section>
+
+  <!-- Contact -->
+  <section id="contact" class="dark-section">
+    <h1>Contact Me</h1>
+    <div class="card-container">
+      <div class="card">
+        <h2>📧 Email</h2>
+        <p><a href="mailto:bhardwajriya2709@gmail.com">bhardwajriya2709@gmail.com</a></p>
+      </div>
+      <div class="card">
+        <h2>🔗 LinkedIn</h2>
+        <p><a href="www.linkedin.com/in/riya-bhardwaj18" target="_blank">linkedin.com/in/riya-bhardwaj16</a></p>
+      </div>
+      <div class="card">
+        <h2>💻 GitHub</h2>
+        <p><a href="https://github.com/Riya-l209" target="_blank">github.com/Riya-l209</a></p>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
